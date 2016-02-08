@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React Markdown Editor</title>
+    <link rel="stylesheet" href="styles/github-markdown.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/codemirror.css">
+    <script>
+      // install babel hooks in the renderer process
+      require('babel-register');
+      require('./scripts/main');
+    </script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
